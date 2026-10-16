@@ -1,6 +1,6 @@
 # Company Research Card Kit
 
-A free, static GitHub Pages resource for U.S. military personnel preparing to enter the civilian workforce. Students copy an evidence-based research prompt, open ChatGPT, enter a company name, and generate their own Company Research Card. There is no AI API or paid backend attached to this site.
+A free, static GitHub Pages resource for U.S. military personnel preparing to enter the civilian workforce. Students download the Anduril visual reference, copy an evidence-based prompt, open ChatGPT, attach the reference, enter a company name, and generate their own Company Research Card. There is no AI API or paid backend attached to this site.
 
 ## Publish on GitHub Pages
 
@@ -28,7 +28,8 @@ The current prompt is embedded into `index.html` for reliable one-click copy fro
 
 ## Content and limitations
 
-- Students access ChatGPT on their own accounts. Free plan usage limits and availability of image creation/file exports apply.
+- Students must download `assets/anduril-example.png` and **attach it in the same ChatGPT conversation** before pasting the prompt. The website cannot automatically transfer a local file to ChatGPT.
+- Students access ChatGPT on their own accounts. Free-plan usage limits and availability of image creation/file exports apply. The prompt now requires the visual; if image generation is unavailable, ChatGPT must disclose that rather than claiming completion.
 - Students must independently inspect sources and review any image output for factual correctness.
 - This website does **not** run AI research. It distributes the instructions for students to use with ChatGPT.
 - GitHub Pages is free for public repositories on GitHub Free, subject to GitHub's usage terms. It is not intended as free hosting for commercial SaaS.
@@ -43,3 +44,12 @@ Official publication instructions: https://docs.github.com/en/pages/getting-star
 - Fixed portrait image display using its original 1055 × 1491 aspect ratio; example is large and can open full size for zoom.
 - Replaced “Seven dimensions of an employer” with **“6 Areas of Company Research”**, six independent research cards, and a visually separate **“07 Bottom Line & Best Fit”** section.
 - Updated the downloadable and copyable research prompts together.
+
+## Release 1.4 — Required cinematic visual attachment
+
+- Replaced the three-step student flow with **Download image → Copy prompt → Attach image and paste in ChatGPT → Enter company and save card**.
+- Added first-class **Download Design Reference** action at the top of the website.
+- Strengthened the prompt: cited research AND a created cinematic infographic are mandatory when the image tool is available; a text-only report is not a finished Company Research Card.
+- Retained the six distinct research areas and seventh **Bottom Line & Best Fit** conclusion.
+- Clarified that original logos, equipment, facilities, and research claims must be verified, and that the Anduril example is illustrative artwork.
+- Kept the website static, free, and without an OpenAI API.
